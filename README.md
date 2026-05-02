@@ -116,3 +116,6 @@ python3 src/train.py "Love looks not with the eyes but with the mind"
 Afsah Buraaq  
 AI Undergraduate at MBZUAI  
 Interested in NLP, language, and meaning in computational systems
+
+## Notes
+Minor formatting improvements.
