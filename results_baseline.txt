@@ -1,0 +1,30 @@
+Baseline classifier on Shakespeare Sonnets 1-20
+
+Model:
+- TF-IDF + Logistic Regression
+
+Labels used:
+- beauty
+- love
+- time
+
+Dataset:
+- 20 Shakespeare sonnets
+- one full sonnet per row
+- manually assigned dominant theme labels
+
+Observations:
+- The pipeline runs successfully end-to-end.
+- The model predicts the training set well, but confidence is only low to moderate.
+- Shakespearean themes overlap heavily, especially beauty, time, and love.
+- The model tends to prefer "time" for ambiguous unseen text.
+- Merging mortality into time made the label space cleaner.
+
+Limitations:
+- Very small dataset
+- Class imbalance
+- Dominant-theme labeling oversimplifies literary meaning
+- Training-set predictions are not a true evaluation
+
+Conclusion:
+This baseline shows that simple NLP methods can capture some thematic patterns in Shakespeare's sonnets, but stronger conclusions require more labeled data and better evaluation.
